@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>The Goldy Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("/man-gcea7673e9_1920.jpg");
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px white solid; */
+        position: absolute;
+        left: 33px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 70px;
+        margin: auto 30px;
+        filter: invert(1);
+    }
+
+    .left div {
+        color: white;
+    }
+
+    .center {
+        /* border: 2px solid red; */
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 33px;
+        font-family: 'Baloo Bhai';
+        font-size: 15px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: white
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 33px;
+        top: 10px;
+    }
+    .btn{
+        margin:  20px 10px;
+        background-color: grey;
+        color: black;
+        font-family: 'Baloo Bhai';
+        padding: 4px 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(133, 117, 96);
+    }
+    .container{
+        border: 2px solid black;
+        margin: 100px 40px;
+        padding: 80px 25px;
+        width: 33%;
+        display: block;
+        border-radius: 20px;
+    }
+    .container h1{
+        text-align: center;
+        font-family: 'Baloo Bhai';
+    }
+   .container button{
+    display: block;
+    width: 123px;
+    margin: auto;
+   }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 2px;
+        border: 3px solid gray;
+        margin: 7px auto;
+        font-size: 20px;
+        font-family: 'Baloo Bhai';
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="38464.png" alt="Error">
+            <div>THE GOLDY GYM</div>
+
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1>
+        Join the best gym of Meerut
+       </h1>
+       <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Contact Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email">
+        </div>
+        <button class="btn">Submit</button>
+       </form>
+    </div>
+</body>
+
+</html>
